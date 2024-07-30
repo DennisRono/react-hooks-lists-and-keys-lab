@@ -1,9 +1,9 @@
-import React from "react";
-import NavBar from "./NavBar";
-import Home from "./Home";
-import About from "./About";
-import ProjectList from "./ProjectList";
-import user from "../data/user";
+import React from 'react'
+import NavBar from './NavBar'
+import Home from './Home'
+import About from './About'
+import ProjectList from './ProjectList'
+import user from '../data/user'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <About bio={user.bio} links={user.links} />
       <ProjectList projects={user.projects} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
